@@ -3,5 +3,5 @@ from . import views
 
 
 urlpatterns = [
-    path('test/', views.SampleView.as_view(), name="example")
+    path('chat-bot/', views.SampleView.as_view(), name="example")
 ]
